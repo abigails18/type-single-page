@@ -8,7 +8,7 @@
   
   header {
     /* where to set the color of the nav bar */
-      background: lightgray;
+      background: #E3BA49;
       text-align: center;
       top:0px;
       position: fixed;
@@ -45,7 +45,7 @@
   }
   
   nav a {
-      color: black;
+      color: #0b2f0b;
       text-decoration: none;
       font-size: 1.2rem;
       text-transform: uppercase;

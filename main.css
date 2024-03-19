@@ -7,49 +7,136 @@
     font-style: normal;
     font-weight: normal;
     }
-    
+
+
+    /* *{
+        border: 3px blue dashed;
+    } */
     body{
-    background-color: lightsteelblue;
+    background-color: #0b2f0b;
     font-family: 'Condor';
+    background-image: image();
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 3rem, 80ch);
+    /* width: min(100% - 3rem, 80ch); */
     margin-inline: auto;
+}
+.hero{
+background-image: url("backgroundgraphic.svg");
+background-size: cover;
+height: 270px;
+}
+
+#history {
+    grid-area: h; height: 220px;
+    background-color: #E3BA49;
+    }
+
+h1 {
+    margin-left: 140px;
+    font-size: 30px;
+}
+.history-paragraph{
+        width: min(100% - 3rem, 100ch);
+        margin-left: 140px;
 }
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
-.page-wrapper{
+h3{
+    color: #E3BA49;
+}
+
+/* mobile styling */
+
+/* .page-wrapper{
 display: grid;
 grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
-    "a a";
-}
+    "h h"
+    "a v";
+} */
 
-.history {
+#history {
 grid-area: h;
 }
 
 .variations{
 grid-area: v;
 }
+h5{
+    font-size: 30px;
+    margin-left: 140px;
+}
+#variations {
+    color: #E3BA49;
+}
 
 .alphabet {
 grid-area: a;
 }
+h2{
+    font-size: 30px;
 }
-/* CSS for the footer */
-footer{
-    background-color: gray;
+#alphabet{
+    color: #E3BA49;
+    margin-left: 150px;
+    font-size: 40px;
 }
 
+.light{
+    font-variation-settings: "wght" 200, "wdth" 100, "ital" 0;
+}
+.lightslant{
+    font-variation-settings: "wght" 200, "wdth" 100, "ital" 20;
+}
+.regular{
+    font-variation-settings: "wght" 500, "wdth" 100, "ital" 0;
+}
+.regularslant{
+    font-variation-settings: "wght" 500, "wdth" 100, "ital" 20;
+}
+.bold{
+    font-variation-settings: "wght" 800, "wdth" 100, "ital" 0;
+}
+.boldslant{
+    font-variation-settings: "wght" 800, "wdth" 100, "ital" 20;
+}
+
+/* CSS for the footer */
+footer{
+    background-color: #E3BA49;
+}
+    .footer-wrapper {
+          /* wrap the full width of the page */
+         width:100%;
+         /* so i can use css grid */
+         display: grid;
+         grid-gap: 3px;
+         /* space around the whole box */
+         padding: 5px;
+         grid-template-columns: repeat(12, 1fr);
+         grid-template-rows: auto auto auto;
+          grid-template-areas: 
+             ". . . . . . . t t t . ."
+             ". f f f . . . t t t . ."
+             ". . . . . . . t t t . .";
+}
+
+.font-name{
+    grid-area: f;
+    font-size: 30px;
+}
+
+.text-wrapper{
+    grid-area: t;
+    align-items: right;
+}
 /* variable font animation */
 h3{
-    font-weight:20; 
+    font-weight:20px; 
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
