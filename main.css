@@ -63,6 +63,7 @@ grid-template-areas:
 grid-area: h;
 }
 
+
 .variations{
 grid-area: v;
 }
@@ -70,9 +71,20 @@ h5{
     font-size: 30px;
     margin-left: 140px;
 }
+.numbers{
+    margin-left: 150px;
+    font-size: 20px;
+
+}
+.symbols{
+    margin-left: 150px;
+    font-size: 20px;
+
+}
 #variations {
     color: #E3BA49;
 }
+
 
 .alphabet {
 grid-area: a;
@@ -105,6 +117,24 @@ h2{
     font-variation-settings: "wght" 800, "wdth" 100, "ital" 20;
 }
 
+#axis {
+    color: #E3BA49;
+    font-size: 25px;
+}
+.weight{
+    font-size: 20px;
+    margin-left: 150px;
+}
+.width{
+    font-size: 20px;
+    margin-left: 150px;
+}
+.italic{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+
 /* CSS for the footer */
 footer{
     background-color: #E3BA49;
@@ -120,19 +150,21 @@ footer{
          grid-template-columns: repeat(12, 1fr);
          grid-template-rows: auto auto auto;
           grid-template-areas: 
-             ". . . . . . . t t t . ."
-             ". f f f . . . t t t . ."
-             ". . . . . . . t t t . .";
+             ". . . . . . . . t t t ."
+             ". f f . . . . . t t t ."
+             ". . . . . . . . t t t .";
 }
 
 .font-name{
     grid-area: f;
-    font-size: 30px;
+    font-size: 40px;
+    margin-left: 50px;
 }
 
 .text-wrapper{
     grid-area: t;
-    align-items: right;
+    text-align: right;
+    margin-right: 50px;
 }
 /* variable font animation */
 h3{
