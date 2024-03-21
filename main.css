@@ -23,9 +23,11 @@
     margin-inline: auto;
 }
 .hero{
-background-image: url("backgroundgraphic.svg");
+background-image: url("newBG.svg");
 background-size: cover;
-height: 270px;
+height: 400px;
+padding-top: 10px;
+font-size: 30px;
 }
 
 
@@ -153,7 +155,7 @@ h2{
 }
 #alphabet{
     color: #E3BA49;
-    margin-left: 115px;
+    margin-left: 123px;
     font-size: 35px;
 }
 
@@ -181,22 +183,22 @@ h2{
 #axis {
     color: #E3BA49;
     font-size: 25px;
-    background-image: url("smallBG.svg");
+    background-image: url("newBG.svg");
     background-size: cover;
     height: 270px;
 
 }
 .weight{
     font-size: 20px;
-    margin-left: 115px;
+    margin-left: 123px;
 }
 .width{
     font-size: 20px;
-    margin-left: 115px;
+    margin-left: 123px;
 }
 .italic{
     font-size: 20px;
-    margin-left: 115px;
+    margin-left: 123px;
 }
 
 
