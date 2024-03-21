@@ -154,7 +154,7 @@ h2{
 #alphabet{
     color: #E3BA49;
     margin-left: 115px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .light{
@@ -181,6 +181,10 @@ h2{
 #axis {
     color: #E3BA49;
     font-size: 25px;
+    background-image: url("smallBG.svg");
+    background-size: cover;
+    height: 270px;
+
 }
 .weight{
     font-size: 20px;

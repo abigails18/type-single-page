@@ -1,15 +1,15 @@
 <svg width="1519" height="718" viewBox="0 0 1519 718" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.27">
-<circle cx="152.5" cy="203.5" r="151" stroke="#E3BA49" stroke-width="3"/>
-<circle cx="699.5" cy="601" r="115.5" stroke="#E3BA49" stroke-width="3"/>
-<circle cx="1111" cy="123" r="115.5" stroke="#E3BA49" stroke-width="3"/>
-<circle cx="677" cy="186" r="69.5" stroke="#E3BA49" stroke-width="3"/>
-<circle cx="1402" cy="456" r="115.5" stroke="#E3BA49" stroke-width="3"/>
-<line x1="108" y1="247.5" x2="353" y2="247.5" stroke="#E3BA49" stroke-width="3"/>
-<line x1="354.5" y1="37" x2="354.5" y2="249" stroke="#E3BA49" stroke-width="3"/>
-<rect x="81.5" y="510.5" width="570" height="151" stroke="#E3BA49" stroke-width="3"/>
-<rect x="494.5" y="1.5" width="570" height="151" stroke="#E3BA49" stroke-width="3"/>
-<rect x="698.5" y="218.5" width="248" height="372" stroke="#E3BA49" stroke-width="3"/>
-<rect x="1081.5" y="485.5" width="250" height="145" stroke="#E3BA49" stroke-width="3"/>
+<circle cx="152.5" cy="203.5" r="150.5" stroke="#E3BA49" stroke-width="4"/>
+<circle cx="699.5" cy="601" r="115" stroke="#E3BA49" stroke-width="4"/>
+<circle cx="1111" cy="123" r="115" stroke="#E3BA49" stroke-width="4"/>
+<circle cx="677" cy="186" r="69" stroke="#E3BA49" stroke-width="4"/>
+<circle cx="1402" cy="456" r="115" stroke="#E3BA49" stroke-width="4"/>
+<line x1="108" y1="247" x2="353" y2="247" stroke="#E3BA49" stroke-width="4"/>
+<line x1="355" y1="37" x2="355" y2="249" stroke="#E3BA49" stroke-width="4"/>
+<rect x="82" y="511" width="569" height="150" stroke="#E3BA49" stroke-width="4"/>
+<rect x="495" y="2" width="569" height="150" stroke="#E3BA49" stroke-width="4"/>
+<rect x="699" y="219" width="247" height="371" stroke="#E3BA49" stroke-width="4"/>
+<rect x="1082" y="486" width="249" height="144" stroke="#E3BA49" stroke-width="4"/>
 </g>
 </svg>
