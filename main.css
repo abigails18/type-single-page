@@ -26,14 +26,14 @@
 background-image: url("newBG.svg");
 background-size: cover;
 height: 400px;
-padding-top: 10px;
-font-size: 30px;
+padding-top: 100px;
 }
 
 
 
 #history {
-    grid-area: h; height: 250px;
+    grid-area: h; 
+    /* height: 250px; */
     background-color: #E3BA49;
     display: grid;
     grid-gap: 3px;
@@ -42,7 +42,7 @@ font-size: 30px;
        grid-template-columns: repeat(12, 1fr);
        grid-template-rows: auto auto auto;
         grid-template-areas: 
-           ". h h h . . . . . c c ."
+           ". h h h . . . c c . . ."
            ". p p p p p p p p p p ."
            ". p p p p p p p p p p .";
 }
@@ -120,32 +120,12 @@ grid-template-areas:
     "a v";
 } */
 
-#history {
+/* #history {
 grid-area: h;
-}
+} */
 
 
-.variations{
-grid-area: v;
-}
-h5{
-    font-size: 30px;
-    margin-left: 115px;
-}
 
-.numbers{
-    margin-left: 115px;
-    font-size: 20px;
-
-}
-.symbols{
-    margin-left: 115px;
-    font-size: 20px;
-
-}
-#variations {
-    color: #E3BA49;
-}
 
 .alphabet {
 grid-area: a;
@@ -180,6 +160,31 @@ h2{
     font-variation-settings: "wght" 800, "wdth" 100, "ital" 20;
 }
 
+
+
+.variations{
+    grid-area: v;
+    }
+    h5{
+        font-size: 30px;
+        margin-left: 115px;
+    }
+    
+    .numbers{
+        margin-left: 115px;
+        font-size: 20px;
+    
+    }
+    .symbols{
+        margin-left: 115px;
+        font-size: 20px;
+    
+    }
+
+#variations {
+        color: #E3BA49;
+    }
+
 #axis {
     color: #E3BA49;
     font-size: 25px;
@@ -188,15 +193,15 @@ h2{
     height: 270px;
 
 }
-.weight{
+    .weight{
     font-size: 20px;
     margin-left: 123px;
 }
-.width{
+    .width{
     font-size: 20px;
     margin-left: 123px;
 }
-.italic{
+    .italic{
     font-size: 20px;
     margin-left: 123px;
 }
