@@ -1,2 +1,3 @@
 # type-single-page
  
+This variable font project's purpose was to learn how to design a website from a coded base and allow your own design to come through. The main subject was variable fonts, using them for emphasis effect or importance. These can also become live fonts when using CSS. AS you can see in the hero section, the word "Condor" stretches out and then shrinks back in to show the variety of width and weight within this font.
