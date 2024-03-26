@@ -42,7 +42,7 @@ padding-top: 100px;
        grid-template-columns: repeat(12, 1fr);
        grid-template-rows: auto auto auto;
         grid-template-areas: 
-           ". h h h . . . c c c c ."
+           ". h h h . . . . c c c ."
            ". p p p p p p p p p p ."
            ". p p p p p p p p p p .";
 }
@@ -56,6 +56,7 @@ padding-top: 100px;
 
 .custom-link{
   grid-area: c;
+    width: min(100% - 3rem, 80ch);
   /* text-align: right;
   margin-right: 50px; */
 }
