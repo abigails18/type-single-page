@@ -134,33 +134,53 @@ grid-area: h;
 .alphabet {
 grid-area: a;
 }
+
 h2{
     font-size: 30px;
 }
+
 #alphabet{
     color: #E3BA49;
-    margin-left: 123px;
-    font-size: 35px;
+    font-size: 32px;
+    grid-area: al; 
+    display: grid;
+    grid-gap: 1px;
+       /* space around the whole box */
+       padding: 5px;
+       grid-template-columns: repeat(12, 1fr);
+       grid-template-rows: auto auto auto;
+        grid-template-areas: 
+           ". a a a a a . . . . . ."
+           ". l l l l l l l l l l ."
+           ". s s s s s s s s s s ."
+           ". r r r r r r r r r r ."
+           ". e e e e e e e e e e ."
+           ". b b b b b b b b b b ."
+           ". o o o o o o o o o o ."
 }
 
 .light{
+    grid-area: l;
     font-variation-settings: "wght" 200, "wdth" 100, "ital" 0;
-    width: min(100% - 3rem, 100ch);
-
 }
 .lightslant{
+    grid-area: s;
     font-variation-settings: "wght" 200, "wdth" 100, "ital" 20;
 }
 .regular{
+    grid-area: r;
     font-variation-settings: "wght" 500, "wdth" 100, "ital" 0;
 }
 .regularslant{
+    grid-area: e;
     font-variation-settings: "wght" 500, "wdth" 100, "ital" 20;
 }
 .bold{
+    grid-area: b;
     font-variation-settings: "wght" 800, "wdth" 100, "ital" 0;
 }
 .boldslant{
+    grid-area: o;
     font-variation-settings: "wght" 800, "wdth" 100, "ital" 20;
 }
 
